@@ -26,13 +26,13 @@ A simple console-based **Student Management System** built with Java. This proje
 
 ## 🏗️ Project Structure
 
-StudentManagementSystem/               ← root project folder
-├── StudentManagement/                 ← package folder
-│       ├── Main.java                  ← entry point
-│       ├── Menu.java                  ← menu UI & controller
-│       ├── Student.java               ← student model class
-│       └── StudentServices.java       ← business logic (add, delete, update, search)
-├── README.md                          ← project documentation
+- StudentManagementSystem/               ← root project folder
+- ├── StudentManagement/                 ← package folder
+- │       ├── Main.java                  ← entry point
+- │       ├── Menu.java                  ← menu UI & controller
+- │       ├── Student.java               ← student model class
+- │       └── StudentServices.java       ← business logic (add, delete, update, search)
+- ├── README.md                          ← project documentation
 
 
 
