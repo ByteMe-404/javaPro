@@ -1,6 +1,3 @@
-
-import java.util.*;
-
 public class StudentServices {
     public Scanner scanner = new Scanner(System.in);
     // list of students
