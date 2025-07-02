@@ -15,7 +15,7 @@ public class StudentPerformanceTracker extends JFrame {
     private JLabel dateLabel, semLabel, topicLabel;
     private String name ;
     private ArrayList<PerformanceEntry> entries;
-
+//tis happend all the time 
     public StudentPerformanceTracker() {
         setTitle("Student Performance Tracker");
         setSize(900, 550);
