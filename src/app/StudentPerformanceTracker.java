@@ -5,7 +5,7 @@ import java.awt.*;
 import java.util.*;
 import java.util.List;
 import java.util.stream.Collectors;
-//fffff
+
 public class StudentPerformanceTracker extends JFrame {
     private JTextField studentIdField, dateField, topicField, marksField;
     private JTextField ceDateField, ceSemField, ceTopicField, ceStartIdField, ceEndIdField;
@@ -13,7 +13,7 @@ public class StudentPerformanceTracker extends JFrame {
     private JTable editTable;
     private JComboBox<String> semComboBox, dateComboBox;
     private JLabel dateLabel, semLabel, topicLabel;
-
+    private String name ;
     private ArrayList<PerformanceEntry> entries;
 
     public StudentPerformanceTracker() {
