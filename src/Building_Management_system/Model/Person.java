@@ -8,19 +8,21 @@ package Building_Management_system.Model;
  *
  * @author rian64bit
  */
-public class FamilyMember {
+public class Person {
     private String name ; 
     private int age ; 
-    private String profession ; 
+    private int nid ; 
+    private String phone ;
     private String relation ; 
     
-    public FamilyMember(){};
+    public Person(){};
     
-    public FamilyMember(String name , int age , String profess , String relation){
+    public Person(String name , int age  , String relation , int nid , String phone){
         this.name = name ; 
         this.age = age ; 
-        this.profession = profess ; 
         this.relation = relation ; 
+        this.nid = nid ; 
+        this.phone= phone ;
     }
     
     public String getName() { return name; }
@@ -29,8 +31,6 @@ public class FamilyMember {
     public void setRelation(String relation) { this.relation = relation; }
     public int getAge() { return age; }
     public void setAge(int age) { this.age = age; }
-    public String getProfession() { return profession; }
-    public void setProfession(String profession) { this.profession = profession; }
 }
 
 
