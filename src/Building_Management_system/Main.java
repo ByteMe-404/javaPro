@@ -9,5 +9,7 @@ package Building_Management_system;
  * @author rian64bit
  */
 public class Main {
-    
+    public static void main(String[] args) {
+        System.out.println("ff");
+    }
 }

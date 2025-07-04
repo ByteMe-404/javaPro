@@ -9,5 +9,7 @@ package Building_Management_system.View;
  * @author rian64bit
  */
 public class LoginFrame {
-    
+    public static void main(String[] args) {
+        System.out.println("Building_Management_system.");
+    }
 }

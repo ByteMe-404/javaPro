@@ -11,3 +11,4 @@ package Building_Management_system.View;
 public class RegisterFrame {
     
 }
+    
